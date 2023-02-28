@@ -1,3 +1,5 @@
-baseURL: http://example.org/
+baseURL: http://silviadeluzio.github.io/
 languageCode: en-us
 title: Silvia Deluzio
+
+theme: "PaperMod"
