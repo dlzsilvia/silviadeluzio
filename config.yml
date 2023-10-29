@@ -62,8 +62,8 @@ params:
     title: "Silvia Deluzio"
     subtitle: "I am a business analyst and Computer Engineering student, focused on data science and interested in the intersection between tech and fashion."
     buttons:
-        - name: Archive
-          url: "/archive"
+        - name: About
+          url: "/about"
         - name: Github
           url: "https://github.com/"
 
