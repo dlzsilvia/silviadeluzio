@@ -1,0 +1,125 @@
+::selection {
+    background: var(--primary);
+    color: var(--theme);
+}
+
+.post-content code {
+    color: var(--secondary);
+    background: var(--border);
+    border-radius: 0 !important;
+}
+
+.dark .post-content code {
+    color: var(--primary);
+    background: var(--entry);
+}
+
+a, h1, h2, h3, h4, h5, h6, p {
+    font-weight: 400 !important;
+}
+
+strong>a {
+    font-weight: bold !important;
+}
+
+body {
+    font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 19px;
+    }
+    .home-info .entry-content {
+        font-size: 19px;
+    }
+}
+	
+.home-info .entry-content a {
+    box-shadow: 0 1px var(--secondary) !important;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.post-content {
+    color: var(--primary);
+}
+
+.post-content a {
+    box-shadow: 0 1px var(--secondary) !important;
+}
+
+.post-title {
+    font-size: 34px;
+}
+
+.pagination a {
+    color: var(--secondary);
+    background: none;
+}
+
+#theme-toggle svg {
+    color: var(--secondary);
+}
+
+.social-icons a {
+    color: var(--secondary);
+}
+
+body {
+    background: var(--code-bg);
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+:root {
+    --content: rgb(81, 81, 81);
+}
+body.dark {
+    background: var(--theme);
+}
+
+.post-entry {
+    position: relative;
+    margin-bottom: calc(var(--gap) - 10px);
+    padding: 0;
+    padding-bottom: 15px;
+    background: none;
+    border-radius: 0;
+    transition: transform .1s;
+    border: 2px solid var(--border);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+
+@media screen and (max-width: 768px) {
+    .post-entry {
+        margin-bottom: calc(var(--gap) - 5px);
+        padding-bottom: 10px;
+    }
+}
+
+.share-buttons, .toc {
+    background: var(--border);
+    border: none;
+    border-radius: 0;
+    padding-inline-start: 0;
+}
+
+.share-buttons a {
+    color: var(--secondary);
+}
+
+.dark .share-buttons, .dark .toc {
+    background: var(--entry);
+    padding-inline-start: 0;
+}
+
+.dark .share-buttons a {
+    color: var(--primary);
+}
+
+#searchInput,
+#searchResults .post-entry {
+    border-radius: 0 !important;
+}
