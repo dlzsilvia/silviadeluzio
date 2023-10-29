@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: true
     title: "Silvia Deluzio"
-    subtitle: "I am a business analyst and Computer Engineering student, focused on data science and interested in the intersection between tech and fashion."
+    subtitle: "I am a business analyst and computer engineering student, focused on data analysis and interested in the intersection between tech and fashion."
     buttons:
         - name: About
           url: "/about"
