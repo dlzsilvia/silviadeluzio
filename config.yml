@@ -64,8 +64,8 @@ params:
     buttons:
         - name: About
           url: "/about"
-        - name: Github
-          url: "https://github.com/"
+        - name: LinkedIn
+          url: "https://linkedin.com/in/silvia-deluzio"
 
   socialIcons:
     - name: linkedin
