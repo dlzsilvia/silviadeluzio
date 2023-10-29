@@ -75,19 +75,6 @@ params:
     - name: github
       url: "https://github.com/silviadeluzio"
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Silvia Deluzio"
-    Content: I am a business analyst and Computer Engineering student, focused on data science and interested in the intersection between tech and fashion.
-
-  socialIcons:
-    - name: linkedin
-      url: "https://linkedin.com/in/silvia-deluzio"
-    - name: email
-      url: "mailto:dlzsilvia2210@gmail.com"
-    - name: github
-      url: "https://github.com/silviadeluzio"
-
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
